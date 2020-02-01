@@ -1,0 +1,295 @@
+.d{
+    border: 2px solid blue;
+}
+body{
+    background: rgb(245, 245, 245);
+}
+.image{
+    background-image: url("https://www.godigit.com/content/dam/godigit/directportal/en/motor-insurance/commercial-vehicle-insurance.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    padding-top: 65px;
+    padding-left: 151px;
+
+}
+.whatsapp-link {
+    border: 2px solid #ffbb00;
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 165px;
+    padding: 7px;
+    padding-left: 20px;
+}
+.mr-t-0 {
+    margin-top: 0 !important;
+}
+a{
+    color: #FA0;
+    cursor: pointer;
+}
+h1{
+    margin-top: 0;
+}
+h1.h1-v2.txt-white.mr-b-20 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.mr-b-20 {
+    margin-bottom: 2rem;
+}
+.txt-white {
+    color: #fff;
+    font-size: 18px;
+}
+.h1-v2 {
+    margin: 10px 0;
+    color:  #fff;
+    font: normal 900 3rem/110% "Muli","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.h2-v2 {
+    color: #444;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.list-menu__item {
+    /* list-style-type: none;  */
+    /* list-style-position: inside; */
+    color: #444;
+    margin-bottom: 20px;
+    font-size: -1.4rem;
+    position: relative;
+    padding-left: 20px;
+}
+.list-menu>li {
+    margin-top: 5px;
+}
+.hh2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 85%;
+}
+#text{
+    margin-left: 377px;
+    padding: 15px;
+}
+
+.section-content-title {
+    color: #444;
+    font-size: 22px;
+    padding: 19px;
+    padding-left: 60px;
+    width: 100%;
+    font-weight: 700;
+}
+.row {
+    margin-right: 5px;
+    margin-left: -15px;
+    /* padding: 10px; */
+}
+.img-wrapper{
+    padding: 57px;
+}
+.list-men{
+    padding: 4px;
+    padding-right: 83px;
+}
+.head{
+    color: #444;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.align{
+    padding-left: 210px;
+    padding-right: 174px;
+}
+.head2{
+    font-size: 26px;
+    color: #444;
+    width: auto;
+    font-family: unset;
+
+}
+
+.box{
+    height: 330px;
+    padding: 0 220px;
+}
+
+
+
+/* this code is not to display the scrolling bar in mobile view */
+
+/* .box::-webkit-scrollbar{
+    display: none;
+} */
+
+
+
+.card-a{
+    display: inline-block;
+    /* background-color: red; */
+    height: 100%;
+    width: 300px;
+}
+.card-b{
+    display: inline-block;
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width: 300px;
+    
+}
+
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 300px;
+    padding-left: 55px;
+}
+ul
+{
+    list-style-type: none;
+}
+.h3-v2 {
+    font-size: 1.8rem;
+}
+.feature-icon-wrapper{
+    position: static;
+    width: 114px;
+    height: 126px;
+    margin: 0 auto;
+}
+.card-header{
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+    width: 358px;
+    height: 321px;
+}
+/* .list-header{
+    padding: initial;
+    padding-right: 42px;
+    padding-top: 13px;
+
+} */
+.set{
+    height: 123px;
+}
+.col-sm-4{
+    padding-bottom: 35px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background: white;
+    }
+    .image{
+        width: 142%;
+    }
+    .hh2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .list-menu{
+        width: 150%;
+        font-size: 28px;
+    }
+    #text{
+        margin-left: 30px;
+        /* padding: 15px; */
+        font-size: 32px;
+    }
+    .text{
+        margin-left: -140px;
+    }
+    .txtt{
+        padding-top: 64px;
+        padding-left: 12px;
+        width: 110%;
+    }
+    .img-wrapper{
+        padding: 0px;
+    }
+    .img-responsive{
+        width: 100%;
+        margin-left: 87px;
+    }
+    .section-content-title{
+        color: #444;
+        font-size: 23px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+    .list-men{
+        padding: 4px;
+        padding-right: 29px;
+    }
+    .para{
+        display: none;
+    }
+    .head{
+        text-align: inherit;
+        margin-left: 59px;
+    }
+    .head3{
+        width: 99%;
+        height: 15px;
+        margin-left: -35px;
+    }
+    .box{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        height: 400px;
+        width: 142%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .feature-card{
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 74px 15px;
+        text-align: center;
+        width: 324px;
+
+    }
+    .card-b{
+        padding-left: 50px;
+    }
+    .card-c{
+        padding-left: 88px;
+    }
+    .container2{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .row2{
+        display: flex;
+        overflow-x: scroll;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        width: 142%;
+    }
+    .container{
+        padding: 0px;
+        margin-left: 20px;
+    }
+    .card-header{
+        height: 270px;
+    }
+ }
